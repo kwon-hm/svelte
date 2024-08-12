@@ -1,0 +1,140 @@
+/*
+* header
+*/
+.header{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.canvas{
+  display: inline;
+  cursor: pointer;
+}
+.ul-li {
+  display: inline;
+  color: #ff3e00;
+  float: right;
+}
+.ul{
+  list-style:none;
+}
+.h1{
+  float: left;
+  display: inline;
+}
+.rightVisible{
+  text-align: center;
+  font-size: xxx-large;
+  background-color: #bbbbc9;
+}
+.right_ul{
+  list-style:none;  
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+.right_ul li{
+  padding: 10px 0 10px 0;
+  cursor: pointer;
+}
+.right_ul li:hover{
+  background-color: #fc531b;
+}
+
+/*
+* posts
+*/
+.createpost-main{
+  width: 80%;
+  margin: auto;
+  border-top-style: solid;
+  border-top-color: #bbbbc9;
+}
+.post-main table{
+  text-align-last: center;
+}
+.post-table{
+  width: 100%;
+  cursor: pointer;
+}
+.post-Head{
+  background-color: #bbbbc9;
+}
+.create-box{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.create-main{
+  width: 80%;
+  margin: auto;
+  border-top-style: solid;
+  border-top-color: #bbbbc9;
+}
+.post_paging{
+  margin: auto;
+  text-align: center;
+}
+/*
+* post detail
+*/
+.detail-main{
+  width: 80%;
+  margin: auto;
+  border-top-style: solid;
+  border-top-color: #bbbbc9;
+  text-align: center;
+}
+.detail-box{
+  margin: auto;
+  width: 80%;
+  padding: 10px 0 10px 0;
+  
+}
+.detail-ul ul li{
+  float: left;
+  list-style-type: none;
+}
+.detail-ul ul{
+  padding: 0;
+}
+/*
+* mypage
+*/
+.mypage{
+  width: 30%;
+  margin: auto;
+}
+
+/*
+* coment
+*/
+.coment{
+  width: 80%;
+  height: 30%;
+  background-color: rgb(245, 241, 241);
+  margin: auto;
+}
+.coment-main{
+  height: 100%;
+}
+.coment-border{
+  border-bottom: 1px solid #bbbbc9;
+  width: 80%;
+  margin: auto;
+}
+.coment-p{
+  text-align: left;
+  padding: 10px 0 0 40px;
+}
+.coment-area{
+  padding: 10px;
+  box-sizing: border-box;
+  border: solid 1px #bbbbc9;
+  resize: none;
+  width: 90%;
+}
+.coment-ul ul{
+  list-style-type: none;
+  text-align: left;
+}
